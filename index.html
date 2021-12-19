@@ -44,6 +44,7 @@
     
 
 
+	 <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
 <meta name="generator" content="Hexo 5.4.0"></head>
 
 <body>
@@ -139,6 +140,7 @@ i()
 },
 100)
 } ();
+  
 </script>
 	
     <script>
@@ -158,7 +160,7 @@ i()
             }
         })();
     </script>
-
+     
     <div class="wrapper">
         <header>
     <nav class="navbar">
@@ -283,7 +285,18 @@ src="https://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
     </div>
 </footer>
 
+			
     </div>
+      <div id="vcomments"></div>
+	  <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'EhCY9g4PNBgJU5cC11w57uNM-MdYXbMMI',
+            appKey: 'bfR5uOUsdmuhdC8NblurrNPJ'
+        })
+       </script>
+    <script>
+!
 </body>
-
+      
 </html>
